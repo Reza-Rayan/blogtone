@@ -1,0 +1,58 @@
+.loginBtn {
+    filter: brightness(0.8);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.loginBtn:hover {
+    filter: brightness(1);
+    transition: all 0.2s;
+}
+
+.closeBtn {
+    cursor: pointer;
+}
+
+.ReactModal__Overlay {
+    background-color: #21212150 !important;
+}
+
+.ReactModal__Content {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px 5px rgba(238, 238, 238, 0.25);
+    border-radius: 16px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 25%;
+    height: 60%;
+}
+
+.logoContainer {
+    background-color: #275EEA;
+}
+form.login label{
+    display: block;
+}
+form.login input{
+    border: none;
+    box-shadow: 0 4px 8px 4px #21212130;
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 13px;
+    border-radius: 6px;
+}
+form.login button{
+    display: block;
+    background-color: #275EEA;
+    color: #FFFFFF;
+}
+form.login button:hover{
+    background-color: #DBFF00;
+}
+
+@media (max-width:576px) {
+    .ReactModal__Content{
+        width: 60%;
+    }
+}

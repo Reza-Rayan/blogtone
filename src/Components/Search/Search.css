@@ -1,0 +1,9 @@
+.search{
+    filter:brightness(0.8);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+.search:hover{
+    filter: brightness(1);
+    transition: all 0.2s;
+}

@@ -1,0 +1,13 @@
+.navItem {
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    margin-bottom: -2px;
+}
+
+.navItem:hover {
+    color: #DBFF00;
+    border-bottom: 2px solid #DBFF00;
+    transition: all .2s;
+}

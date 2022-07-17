@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'vazir' ;
+    src: url('../Fonts/vazir/Vazir-Bold.eot');
+    src: url('../Fonts/vazir/Vazir-Bold.ttf');
+    src: url('../Fonts/vazir/Vazir-Light.eot');
+    src: url('../Fonts/vazir/Vazir-Light.ttf');
+    src: url('../Fonts/vazir/Vazir-Medium.eot');
+    src: url('../Fonts/vazir/Vazir-Medium.ttf');
+}
+li,a,ul{
+    font-family: 'vazir' !important;
+}
+@font-face {
+    font-family: 'irnsns';
+    src: url('../Fonts/IRANSansFaNum.otf');
+    src: url('../Fonts/IRANSansFaNum.ttf');
+    src: url('../Fonts/IRANSansFaNum.woff');
+}
+div,span,p,a,ol{
+    font-family: 'irnsns';
+}
